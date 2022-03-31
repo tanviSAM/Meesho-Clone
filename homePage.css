@@ -1,0 +1,664 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.MeeshoSite {
+  width: 100%;
+  border: 2px solid #cfd8dc;
+  position: fixed;
+  top: 1px;
+  background-color: white;
+  /* border: 1px solid red */
+}
+/* NavigationBar */
+.MWeb {
+  width: 100%;
+  border: 1px solid #cfd8dc;
+}
+.TagIcon {
+  color: black;
+}
+.TagIcon > span {
+  color: black;
+  background-color: none;
+  margin: auto;
+  padding-left: 20px;
+}
+#cart {
+  cursor: pointer;
+}
+#search-bar {
+  width: 150%;
+  border: none;
+  /* border: 1px solid red */
+  padding-left: 30px;
+  font-size: large;
+}
+#SearchBox > span {
+  color: black;
+}
+#SearchBox {
+  width: 100%;
+  border-radius: 5px;
+  align-items: center;
+  /* border: 1px solid red */
+  margin-right: 5%;
+  padding: 1%;
+  border: 2px solid gray;
+}
+.dash-2 {
+  margin: auto;
+  font-weight: 500;
+  font-size: 28px;
+  margin: 2%;
+  color: gray;
+}
+#DwnldTag {
+  width: 30%;
+  margin: auto;
+  /* border: 1px solid red */
+  text-align: center;
+}
+#tagDwn {
+  margin: auto;
+  padding: 1%;
+  font-size: 16px;
+}
+#DwnldTag > span {
+  color: black;
+  margin: auto;
+}
+#SupplyTag {
+  width: 30%;
+  margin: auto;
+  /* border: 1px solid red */
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-right: 1px solid #e0e0e0;
+  border-left: 1px solid #e0e0e0;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.NavBar1 {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  /* border: 1px solid red */
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+}
+.NavBar2 {
+  width: 90%;
+  margin: auto;
+  position: relative;
+  display: flex;
+  /* border: 1px solid red */
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding: 1.3%;
+  border-left: none;
+  border-right: none;
+}
+.NavBar2 :hover {
+  font-weight: bold;
+  color: #f43397;
+  cursor: pointer;
+}
+.tagCat_one {
+  display: none;
+}
+.NavBar2 :hover .tagCat_one {
+  display: grid;
+  grid-template-columns: 15% 15% 15% 15% 15% 15%;
+  grid-gap: 1%;
+  position: absolute;
+  background-color: white;
+  padding: 2%;
+  margin-top: 1.5%;
+  color: gray;
+  width: 100%;
+  height: 400px;
+  box-shadow: 0.3px 0.3px 1px 0px gray;
+}
+.SubTagsNav {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red */
+  font-weight: normal;
+  line-height: 50px;
+}
+.tagCat_two {
+  display: none;
+}
+.NavBar2 :hover .tagCat_two {
+  display: grid;
+  grid-template-columns: 15% 15% 15% 15% 15% 15%;
+  grid-gap: 1%;
+  padding: 2%;
+  position: absolute;
+  background-color: white;
+  margin-top: 1.5%;
+  width: 87%;
+  height: 400px;
+  box-shadow: 1px 1px 2px 0px gray;
+}
+.tagCat_three,
+.tagCat_four,
+.tagCat_five,
+.tagCat_six,
+.tagCat_seven,
+.tagCat_eight {
+  display: none;
+}
+.NavBar2 :hover .tagCat_three {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  grid-gap: 1%;
+  padding: 2%;
+  position: absolute;
+  background-color: white;
+  margin-top: 1.5%;
+  width: 73%;
+  height: 400px;
+  box-shadow: 1px 1px 2px 0px gray;
+}
+.NavBar2 :hover .tagCat_four {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-gap: 1%;
+  padding: 2%;
+  position: absolute;
+  background-color: white;
+  margin-top: 1.5%;
+  width: 58%;
+  height: 400px;
+  box-shadow: 1px 1px 2px 0px gray;
+}
+.NavBar2 :hover .tagCat_five {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-gap: 1%;
+  padding: 2%;
+  position: absolute;
+  background-color: white;
+  margin-top: 1.5%;
+  width: 45%;
+  height: 400px;
+  box-shadow: 1px 1px 2px 0px gray;
+}
+.NavBar2 :hover .tagCat_six {
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  grid-gap: 1%;
+  padding: 1%;
+  background-color: white;
+  position: absolute;
+  margin-top: 1.5%;
+  width: 40%;
+  height: 400px;
+  box-shadow: 1px 1px 2px 0px gray;
+}
+.NavBar2 :hover .tagCat_seven {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  padding: 1%;
+  background-color: white;
+  position: absolute;
+  margin-top: 1.5%;
+  width: 31%;
+  grid-gap: 2%;
+  height: 400px;
+  box-shadow: 1px 1px 2px 0px gray;
+}
+.NavBar2 :hover .tagCat_eight {
+  display: grid;
+  grid-template-columns: 85%;
+
+  padding: 1%;
+  background-color: white;
+  position: absolute;
+  margin-top: 1.5%;
+  width: 10%;
+  height: 400px;
+  box-shadow: 1px 1px 2px 0px gray;
+}
+/* HomePage */
+.addImg01 {
+  width: 73%;
+  margin: auto;
+  margin-top: 15%;
+  /* border: 1px solid red */
+  display: flex;
+  border-radius: 5px;
+}
+.text {
+  width: 50%;
+  background-color: #fafafa;
+  padding: 5%;
+  text-align: left;
+  font-size: large;
+}
+.image {
+  width: 50%;
+  justify-content: right;
+}
+.image > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+#para {
+  display: inline-block;
+  font-size: x-large;
+  background-color: white;
+  border-radius: 2%;
+  padding: 10px;
+  margin-top: 10%;
+}
+.pink-box {
+  display: block;
+  background-color: #f43397;
+  color: white;
+  border-radius: 5px;
+  margin: 5% 5% 5% 0px;
+  width: 80%;
+  padding: 10px;
+  text-decoration: none;
+  display: flex;
+  text-align: center;
+}
+#play {
+  margin: auto auto auto 25px;
+}
+#playstore-logo {
+  margin-left: 5%;
+}
+#CatHeader {
+  width: 73%;
+  margin: 5% auto auto auto;
+  display: grid;
+  grid-template-columns: 23% 54% 23%;
+  padding: 1%;
+  position: sticky;
+}
+hr {
+  margin-top: 5%;
+  background-color: #f43397;
+  color: #f43397;
+}
+#cat {
+  margin-top: -15px;
+  text-align: center;
+}
+.addImg02 {
+  display: flex;
+  width: 73%;
+  background-image: url(https://images.meesho.com/images/marketing/1631612018143.png);
+  border: 1px solid black;
+  margin: 5% auto;
+  height: 600px;
+}
+.threeimg {
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 35% 25% 25%;
+  grid-gap: 5%;
+}
+.firstimg {
+  width: 70%;
+  margin: 5%;
+}
+.secondimg,
+.thirdimg {
+  margin: auto 10px 7% 10px;
+  margin-right: 5%;
+}
+.addImg03 {
+  width: 73%;
+  display: grid;
+  grid-template-columns: 30% 20% 18% 18%;
+  grid-gap: 4%;
+  margin: 5% auto;
+  border: 1px solid black;
+  background-image: url(https://images.meesho.com/images/marketing/1629883965347.png);
+  height: 545px;
+}
+#homeobtn {
+  text-align: center;
+  margin: auto;
+  cursor: pointer;
+}
+#viewall {
+  margin-top: 15px;
+  background-color: green;
+  padding: 6% 8% 6% 8%;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 5%;
+}
+.imageone {
+  margin: auto;
+}
+.imageone > img {
+  border: 8px solid #cdedde;
+}
+.imageone > a {
+  margin-left: 27%;
+}
+#btn1 {
+  padding: 8px 20px 8px 20px;
+  margin: auto;
+  text-align: center;
+  font-size: 15px;
+  background-color: white;
+  color: green;
+  border: none;
+  border-radius: 5px;
+}
+.become {
+  display: flex;
+  width: 73%;
+  margin: auto;
+  border: 1px solid black;
+  background-image: url(https://meesho.com/_next/static/images/download_banner-19ca4d63d9c1dc44bc8cbfae62b60bd7.jpg);
+  height: 560px;
+}
+.split {
+  width: 30%;
+}
+.split-1 {
+  width: 70%;
+}
+#firsthead {
+  width: 100%;
+  text-align: right;
+  padding: 2% 8% 2% 8%;
+  color: #5585f8;
+}
+#secondhead {
+  color: #f43397;
+  text-align: right;
+  padding: 2% 8% 2% 8%;
+  font-size: 48px;
+}
+.logos {
+  width: 100%;
+  margin: auto;
+  justify-content: right;
+  display: grid;
+  grid-template-columns: 55% 20% 20% 0.5%;
+  grid-gap: 4%;
+  padding: 5%;
+}
+#android {
+  border: 10px solid black;
+  border-radius: 5%;
+}
+
+#apple {
+  border: 11px solid black;
+  border-radius: 5%;
+  margin-right: 10px;
+}
+.final {
+  width: 73%;
+  border: 1px solid black;
+  background-image: url(https://meesho.com/_next/static/images/supply_banner_desk-d53b6ffa3ee3c43feedcfdd0f3d9bd8d.jpg);
+  height: 290px;
+  margin: 5% auto;
+}
+.textreg {
+  color: white;
+  padding: 3% 2% 1% 5%;
+  line-height: -1%;
+}
+#sell {
+  margin-top: 1%;
+  font-size: 17px;
+}
+.threeboxes {
+  display: grid;
+  width: 65%;
+  grid-template-columns: 30% 2% 30% 2% 30%;
+  grid-gap: 1%;
+  color: white;
+  padding: 1%;
+  font-size: 18px;
+  margin-left: 4%;
+}
+.material-icons {
+  color: green;
+  margin: auto;
+}
+.threeboxes > h6 {
+  display: flex;
+  margin: auto;
+  text-align: center;
+}
+.threeboxes > span {
+  margin: auto;
+  text-align: center;
+}
+.dash {
+  font-size: xx-large;
+}
+.signup {
+  margin-left: 5%;
+  padding: 10px 10px 10px 0px;
+}
+#signup-btn {
+  padding: 5px 15px 5px 15px;
+  color: #f43397;
+  font-size: 18px;
+  background-color: white;
+  border: none;
+  border-radius: 5%;
+  padding: 10px 15px 10px 15px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#beSupp {
+  font-size: medium;
+  font-weight: 600;
+}
+#ViewAl {
+  cursor: pointer;
+}
+/*SignUp Portion*/
+#RegBox {
+  width: 94%;
+  height: 650px;
+  background-color: white;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+}
+#SignUpBox {
+  width: 35%;
+  height: 88%;
+  margin: auto;
+  border: 1px solid #26262c83;
+  border-radius: 5px;
+  color: #26262c;
+  letter-spacing: 0.06rem;
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-position: 50%;
+  padding: 2%;
+  box-shadow: rgba(60, 61, 61, 0.397) 0px 2px 5px -1px,
+    rgba(81, 82, 82, 0.397) 0px 1px 3px -1px;
+}
+
+#usernm {
+  width: 80%;
+  height: 40px;
+  margin-top: 30px;
+  border: 1px solid #26262c83;
+  border-radius: 5px;
+  color: #26262c;
+  outline: none;
+  letter-spacing: 0.06rem;
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-position: 50%;
+  margin-left: 8%;
+}
+#usernm:hover {
+  box-shadow: rgba(60, 61, 61, 0.397) 0px 2px 5px -1px,
+    rgba(81, 82, 82, 0.397) 0px 1px 3px -1px;
+}
+#mobile {
+  width: 80%;
+  height: 40px;
+  margin-top: 30px;
+  border: 1px solid #26262c83;
+  border-radius: 5px;
+  color: #26262c;
+  outline: none;
+  letter-spacing: 0.06rem;
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-position: 50%;
+  margin-left: 8%;
+}
+#mobile:hover {
+  box-shadow: rgba(60, 61, 61, 0.397) 0px 2px 5px -1px,
+    rgba(81, 82, 82, 0.397) 0px 1px 3px -1px;
+}
+#email {
+  width: 80%;
+  height: 40px;
+  margin-top: 30px;
+  border: 1px solid #26262c83;
+  border-radius: 5px;
+  color: #26262c;
+  outline: none;
+  letter-spacing: 0.06rem;
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-position: 50%;
+  margin-left: 8%;
+}
+#email:hover {
+  box-shadow: rgba(60, 61, 61, 0.397) 0px 2px 5px -1px,
+    rgba(81, 82, 82, 0.397) 0px 1px 3px -1px;
+}
+#password {
+  width: 80%;
+  height: 40px;
+  margin-top: 30px;
+  border: 1px solid #26262c83;
+  border-radius: 5px;
+  color: #26262c;
+  outline: none;
+  letter-spacing: 0.06rem;
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-position: 50%;
+  margin-left: 8%;
+}
+#password:hover {
+  box-shadow: rgba(60, 61, 61, 0.397) 0px 2px 5px -1px,
+    rgba(81, 82, 82, 0.397) 0px 1px 3px -1px;
+}
+#SignUpBut {
+  width: 45%;
+  height: 40px;
+  background-color: #f43397;
+  color: white;
+  letter-spacing: 0.06rem;
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-position: 50%;
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-left: 28%;
+}
+#SignUpBut:hover {
+  background-color: #f4339796;
+  box-shadow: rgba(60, 61, 61, 0.397) 0px 2px 5px -1px,
+    rgba(81, 82, 82, 0.397) 0px 1px 3px -1px;
+  cursor: pointer;
+}
+.SignUpHover:hover {
+  color: #f43397;
+  cursor: pointer;
+}
+#SignInBox {
+  width: 35%;
+  height: 420px;
+  margin: auto;
+  border: 1px solid #26262c83;
+  border-radius: 10px;
+  color: #26262c;
+  letter-spacing: 0.06rem;
+  font-size: 12px;
+  font-family: "Avenir Medium", sans-serif;
+  background-position: 50%;
+  padding: 2%;
+  box-shadow: rgba(60, 61, 61, 0.397) 0px 2px 5px -1px,
+    rgba(81, 82, 82, 0.397) 0px 1px 3px -1px;
+}
+/* Footer */
+#footer {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 400px repeat(4, 1fr);
+  margin: auto;
+  gap: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #f9f9f9;
+}
+#footer > div > h2 {
+  font-weight: 700;
+}
+#footer > div > a {
+  display: block;
+  margin-top: 30px;
+  text-decoration: none;
+  color: RGB(110, 107, 108);
+  font-weight: 500;
+}
+#footer > div > img {
+  margin-top: 39px;
+  margin-left: 4px;
+}
+#footer > div > p {
+  color: RGB(110, 107, 108);
+}
+.aboutMeesho {
+  width: 70%;
+  margin: auto;
+  background-color: white;
+  margin-top: 13px;
+}
+.aboutMeesho > button {
+  width: 95%;
+  height: 70px;
+  text-align: left;
+  background-color: white;
+  border: none;
+}
+#aboutMeeshoContent {
+  display: none;
+}
