@@ -420,7 +420,7 @@ function handleprice() {
         })
     }
     document.querySelector("#container").innerHTML = "";
-    appenddata(dataarr);
+    appenddata(data);
 }
 
 function product_description(el) {
