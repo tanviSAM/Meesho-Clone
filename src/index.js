@@ -6,11 +6,8 @@ const connect = require("./configs/db");
 const app = express();
 app.use(express.json());
 
-// const cors = require("cors");
-// app.use(cors());
-
-const cors = require("cor");
-app.use(cor());
+const cors = require("cors");
+app.use(cors());
 
 const userController = require("./controllers/user.controller")
 const {register,login} = require("../src/controllers/signup.constrollers")
