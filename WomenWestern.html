@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/homePage.css">
     <title>Womens Wear : Latest Dress Designs at Best Price | Meesho</title>
     <link rel="stylesheet" href="./css/productpage.css">
+    <link rel="stylesheet" href="./css/search.css">
 </head>
 
 <body>
@@ -30,8 +31,10 @@
             />
             <input
               type="text"
+              id="keyword"
               class="searchContainer"
               placeholder="Try Saree,Kurthi or Seach by Product Code"
+              onkeypress="handleKeyPress(event)"
             />
           </div>
           <div class="navRightSec">
@@ -114,6 +117,11 @@
           </div>
         </div>
       </section>
+      <section class="searchWindow">
+        <div id="searchWindowDiv">
+          
+        </div>
+      </section>
     <div id="product_page_title">
         <p id="product_page_title">Womens Wear</p>
         <p id="product_page_count">Showing 1-36 out of 218090 Products</p>
@@ -171,3 +179,4 @@
 
 </html>
 <script type="text/javascript" src="./script/womens.js"></script>
+<script type="text/javascript" src="./script/search.js"></script>

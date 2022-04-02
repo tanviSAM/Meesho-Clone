@@ -398,6 +398,8 @@ function appenddata(data) {
         document.querySelector("#container").append(product_div)
     });
 }
+
+
 // sort
 async function handleprice() {
     var shortv = document.querySelector("#select_tag").value

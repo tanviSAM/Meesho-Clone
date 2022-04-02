@@ -29,6 +29,8 @@
             <input
               type="text"
               class="searchContainer"
+              id="keyword"
+              onkeypress="handleKeyPress(event)"
               placeholder="Try Saree,Kurthi or Seach by Product Code"
             />
           </div>
@@ -113,7 +115,7 @@
         </div>
       </section>
     <section class="searchWindow">
-      <div class="searchWindowDiv">
+      <div id="searchWindowDiv">
         
       </div>
     </section>
@@ -373,6 +375,7 @@
     </div>
 </body>
 <script src="./scripts/footer.js"></script>
+<script src="./script/search.js"></script>
 <script>
     let current_users = JSON.parse(localStorage.getItem('current_bussiness_user'));
     let consumer_current_users = JSON.parse(localStorage.getItem('current_user'));
