@@ -74,7 +74,7 @@
 // dataarr.push(mensdata20)
 
 
-let url = `http://127.0.0.1:3000/mens` ; // this url will be of backend Server
+let url = `http://100.27.23.215/products` ; // this url will be of backend Server
 async function fetchAPI(){
     try {
         let res = await fetch(url);

@@ -290,7 +290,7 @@
 
 // ];
 
-let url = `http://127.0.0.1:3000/womens` ; // this url will be of backend Server
+let url = `http://100.27.23.215/womens` ; // this url will be of backend Server
 async function fetchAPI(){
     try {
         let res = await fetch(url);
