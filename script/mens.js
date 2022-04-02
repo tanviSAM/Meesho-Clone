@@ -183,17 +183,10 @@ function appenddata(data) {
     });
 }
 
-<<<<<<< HEAD
-
-=======
-//creating sort functionality for the products--------------------------------------------------------------------
->>>>>>> 1f116f6926cfa9ace027ce89a265b5f901ed55bc
+// sort
 async function handleprice() {
 
     var shortv = document.querySelector("#select_tag").value
-    let res = await fetch(url);
-    let data = await res.json();
-
     let res = await fetch(url);
     let data = await res.json();
 
@@ -214,10 +207,6 @@ async function handleprice() {
     }
     document.querySelector("#container").innerHTML = "";
     appenddata(data);
-<<<<<<< HEAD
-    console.log("yes")
-=======
->>>>>>> 1f116f6926cfa9ace027ce89a265b5f901ed55bc
 }
 
 function product_description(el) {
