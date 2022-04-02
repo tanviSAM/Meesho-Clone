@@ -582,3 +582,19 @@ a {
 #aboutMeeshoContent {
   display: none;
 }
+
+/*  Search window CSS*/
+.searchWindow{
+  position: fixed;
+  background-color: white;
+  z-index: 10000;
+  height: 80%;
+  width: 80%;
+  left:0;
+  right:0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 2;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  /* display: none; */
+}
