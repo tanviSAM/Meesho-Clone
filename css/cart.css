@@ -1,6 +1,8 @@
 * {
   box-sizing: border-box;
   font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+}
+.cartSection *{
   margin: 5px;
 }
 .cartSection{

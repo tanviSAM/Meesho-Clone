@@ -10,99 +10,111 @@
     <link rel="icon" href="https://static.meeshosupply.com/web/meesho-logo-fav.png">
     <link rel="stylesheet" href="./css/homePage.css">
     <link rel="stylesheet" href="./css/cart.css">
+    <link rel="stylesheet" href="./css/search.css">
     <title>Cart | Meesho</title>
   </head>
   <body>
     <!-- Navigation Bar -->
     <section class="navbar">
-        <div class="uppernav">
-          <a href="index.html"><img
-            src="https://cdn.hevodata.com/customer/logo/8c76f62bd88177a78bb6e2810a244446.png"
-            alt="logo"
-            class="logo"
-          /></a>
-          <div class="navSearch">
+      <div class="uppernav">
+        <a href="index.html"><img
+          src="https://cdn.hevodata.com/customer/logo/8c76f62bd88177a78bb6e2810a244446.png"
+          alt="logo"
+          class="logo"
+        /></a>
+        <div class="navSearch">
+          <img
+            src="https://i.postimg.cc/90c6jfMm/search-interface-symbol.png"
+            alt="search"
+            class="NavSearchIcon"
+          />
+          <input
+            type="text"
+            id="keyword"
+            class="searchContainer"
+            placeholder="Try Saree,Kurthi or Seach by Product Code"
+            onkeypress="handleKeyPress(event)"
+          />
+        </div>
+        <div class="navRightSec">
+          <div class="navAppPromo">
             <img
-              src="https://i.postimg.cc/90c6jfMm/search-interface-symbol.png"
-              alt="search"
-              class="NavSearchIcon"
+              src="https://i.postimg.cc/sXqr2Fz4/smartphone.png"
+              alt="app"
+              class="navAppIcon"
             />
-            <input
-              type="text"
-              class="searchContainer"
-              placeholder="Try Saree,Kurthi or Seach by Product Code"
-            />
+            <span id="tagDwn">Download App</span>
           </div>
-          <div class="navRightSec">
-            <div class="navAppPromo">
-              <img
-                src="https://i.postimg.cc/sXqr2Fz4/smartphone.png"
-                alt="app"
-                class="navAppIcon"
-              />
-              <span id="tagDwn">Download App</span>
-            </div>
-            <span class="navSuplier">Become a Supplier</span>
-            <div class="navProfile" onclick="window.location.href='SignUpPage.html'">
-              <img
-                src="https://i.postimg.cc/wjtLkcVz/user.png"
-                alt="account"
-                class="navAccountIcon"
-              />
-              <span
-                class="SignUpHover"
-                >Profile</span
-              >
-            </div>
-            <div class="navcart" onclick="window.location.href='CartPage.html'">
-              <img
-                src="https://i.postimg.cc/sXBgkwMf/bag.png"
-                alt="cart"
-                class="cartIcon"
-              />
-              <span
-                class="SignUpHover"
-                onclick="window.location.href='CartPage.html'"
-                >Cart</span
-              >
-            </div>
+          <span class="navSuplier">Become a Supplier</span>
+          <div class="navProfile" onclick="window.location.href='SignUpPage.html'">
+            <img
+              src="https://i.postimg.cc/wjtLkcVz/user.png"
+              alt="account"
+              class="navAccountIcon"
+            />
+            <span
+              class="SignUpHover"
+              >Profile</span
+            >
+          </div>
+          <div class="navcart" onclick="window.location.href='CartPage.html'">
+            <img
+              src="https://i.postimg.cc/sXBgkwMf/bag.png"
+              alt="cart"
+              class="cartIcon"
+            />
+            <span
+              class="SignUpHover"
+              onclick="window.location.href='CartPage.html'"
+              >Cart</span
+            >
           </div>
         </div>
-        <div class="bottomNav">
-          <div class="nav-menu">
-            <ul>
-              <li class="dropdown" onclick="window.location.href='viewall.html'">View All</li>
-              <li class="dropdown" onclick="window.location.href='WomenWestern.html'">Women Western
-                <div class="submenu">
-                  <div class="subCat">
-                    <span class="catHeading">Topwear</span>
-                    <span>Dresses</span>
-                    <span>Tops</span>
-                    <span>Sweaters</span>
-                    <span>Jumpsuits</span>
-                  </div>
-                  <div class="subCat" style="margin-left: 1em;">
-                    <span class="catHeading">Bottomwear</span>
-                    <span>Jeans</span>
-                    <span>Jeggings</span>
-                    <span>Palazzos</span>
-                    <span>Shorts</span>
-                    <span>Skirts</span>
-                  </div>
+      </div>
+      <div class="bottomNav">
+        <div class="nav-menu">
+          <ul>
+            <li class="dropdown" onclick="window.location.href='viewall.html'">View All</li>
+            <li class="dropdown" onclick="window.location.href='WomenWestern.html'">Women Western
+              <div class="submenu">
+                <div class="subCat">
+                  <span class="catHeading">Topwear</span>
+                  <span>Dresses</span>
+                  <span>Tops</span>
+                  <span>Sweaters</span>
+                  <span>Jumpsuits</span>
                 </div>
-              </li>
-              <li onclick="window.location.href='Jewellery.html'">Jewellery & Accessories</li>
-              <li onclick="window.location.href='Men.html'">Men</li>
-              <li>Beauty & Health</li>
-              <li>Bath & Body</li>
-              <li>Bags & Footwear</li>
-              <li>Home & Kitchen</li>
-              <li>Kids</li>
-              <li>Electronics</li>
-            </ul>
-          </div>
+                <div class="subCat" style="margin-left: 1em;">
+                  <span class="catHeading">Bottomwear</span>
+                  <span>Jeans</span>
+                  <span>Jeggings</span>
+                  <span>Palazzos</span>
+                  <span>Shorts</span>
+                  <span>Skirts</span>
+                </div>
+              </div>
+            </li>
+            <li onclick="window.location.href='Jewellery.html'">Jewellery & Accessories</li>
+            <li onclick="window.location.href='Men.html'">Men</li>
+            <li>Beauty & Health</li>
+            <li>Bath & Body</li>
+            <li>Bags & Footwear</li>
+            <li>Home & Kitchen</li>
+            <li>Kids</li>
+            <li>Electronics</li>
+          </ul>
         </div>
-      </section>
+      </div>
+    </section>
+    <section class="searchWindow">
+      <div class="searchCloseBtn">
+        <img src="https://i.postimg.cc/Lgdct409/close.png" alt="">
+      </div>
+      <div id="searchWindowDiv">
+        
+      </div>
+    </section>
+  <section class="blurBack"></section>
       <section class="cartSection">
         <div class="cart-left-section" id="left_section">
         </div>
@@ -167,6 +179,6 @@
   </div> 
   </body>
 </html>
-<script src="./script/cart.js">
+<script type="text/javascript" src="./script/search.js"></script>
+<script src="./script/cart.js"></script>
 
-</script>

@@ -3,17 +3,15 @@
   box-sizing: border-box;
   margin: 0px;
 }
-section {
-  max-width: 1200px;
-  margin: auto;
-  margin-top: 2em;
-  margin-bottom: 2em;
-}
 
 .app_promo-container {
   display: flex;
   justify-content: space-between;
   border: 1px dotted #f43397;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .app_promo-container .left-section {

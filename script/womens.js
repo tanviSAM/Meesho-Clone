@@ -296,7 +296,6 @@ async function fetchAPI(){
         let res = await fetch(url);
         let data = await res.json();
         appenddata(data);
-        console.log(data);
     } catch (error) {
         console.log("error : ",error);
     }
