@@ -400,22 +400,25 @@ function appenddata(data) {
 }
 
 
-function handleprice() {
+async function handleprice() {
 
     var shortv = document.querySelector("#select_tag").value
 
+    let res = await fetch(url);
+    let data = await res.json();
+
     if (shortv == "high") {
-        dataarr.sort(function (a, b) {
+        data.sort(function (a, b) {
             return Number(b.price) - Number(a.price);
         });
     }
     if (shortv == "low") {
-        dataarr.sort(function (a, b) {
+        data.sort(function (a, b) {
             return Number(a.price) - Number(b.price);
         });
     }
     if (shortv == "rating") {
-        dataarr.sort(function (a, b) {
+        data.sort(function (a, b) {
             return Number(b.rating) - Number(a.rating)
         })
     }
