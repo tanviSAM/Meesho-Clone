@@ -464,6 +464,7 @@ function appenddata(data) {
     });
 }
 
+//creating sort functionality for the products--------------------------------------------------------------------
 async function handleprice() {
 
     var shortv = document.querySelector("#select_tag").value
