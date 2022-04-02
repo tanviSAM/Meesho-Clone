@@ -344,7 +344,7 @@ function appenddata(data) {
 
         product_price_div.append(product_price, mrp, per_discount)
 
-        //creating a div to store extra discount------------------------------------------------------------------------
+        //creating a div to store extra discount----------------------------------------------------------------------
 
         var ext_discount = document.createElement("div")
         ext_discount.setAttribute("id", "ext_discount")
@@ -371,7 +371,7 @@ function appenddata(data) {
 
         delivery.append(product_delivery);
 
-        //creating a div to store the product rating and product review-----------------------------------------------------
+        //creating a div to store the product rating and product review--------------------------------------------------
 
         var product_rating_div = document.createElement("div");
         product_rating_div.setAttribute("id", "product_rating_div")
@@ -399,10 +399,17 @@ function appenddata(data) {
     });
 }
 
+<<<<<<< HEAD
 
+=======
+//creating sort functionality for the products--------------------------------------------------------------------
+>>>>>>> 1f116f6926cfa9ace027ce89a265b5f901ed55bc
 async function handleprice() {
 
     var shortv = document.querySelector("#select_tag").value
+    let res = await fetch(url);
+    let data = await res.json();
+
     let res = await fetch(url);
     let data = await res.json();
 
