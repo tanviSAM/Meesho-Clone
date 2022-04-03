@@ -146,3 +146,9 @@ document.querySelector(".searchCloseBtn").addEventListener("click",()=>{
   document.querySelector(".searchWindow").style.display = "none";
   document.querySelector(".blurBack").style.display = "none";
 })
+
+function product_description(el) {
+  data = JSON.stringify(el)
+  localStorage.setItem("product_detail", data)
+  window.location.href = 'product_description.html'
+}

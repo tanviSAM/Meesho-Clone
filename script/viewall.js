@@ -1,14 +1,15 @@
 
 // let url = `http://100.27.23.215/products` ; // this url will be of backend Server
+var prdgp = [];
 async function fetchAPI(url){
     try {
         let res = await fetch(url);
         let data = await res.json();        
         data.map((e) => {            
-                vals.push(e);
+            prdgp.push(e);
         });                      
         
-        appenddata(vals);
+        appenddata(prdgp);
         
     } catch (error) {
         console.log("error : ",error);
@@ -16,8 +17,9 @@ async function fetchAPI(url){
 }
 
 
-for(let i=0; i < 3; i++)
+for(let i=0; i < 3; i++){
    fetchAPI(url_arr[i]); 
+}
 // console.log("******************************************");
 // console.log(alldata);
 
