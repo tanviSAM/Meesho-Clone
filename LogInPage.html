@@ -136,7 +136,37 @@
 </body>
 </html>
 <script type="text/javascript" src="./script/search.js"></script>
+
 <script>
+    document.getElementById("form").addEventListener("submit", signIn);
+    var regUser = JSON.parse(localStorage.getItem("user")) || [];
+    function signIn(e) {
+    e.preventDefault();
+    var email = document.getElementById("email").value;
+    var password = document.getElementById("password").value;
+
+    if (!email || !password) {
+        alert("Enter All of the details");
+        }
+        else {
+            for (var i = 0; i < regUser.length; i++) {
+                if (regUser[i].email === email && regUser[i].password === password) {
+                    alert("WELCOME BACK! We missed you .");
+                    window.location.href = "index.html";
+            return;
+            }
+            else if (email == "admin@gmail.com" && password == "admin") {
+                alert("SignIn Sucessfully !");
+                //redirect Home page
+                window.location.href = "index.html";
+                return;
+            }
+      }
+      alert("ERROR! Wrong E-Mail Id or Password");
+    }
+  }
+</script>
+<!-- <script>
     document.getElementById("form").addEventListener("submit", Login);
     
      
@@ -176,4 +206,4 @@
         console.log(err);
       }
     }
-</script>
+</script> -->
