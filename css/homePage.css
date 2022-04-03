@@ -24,6 +24,18 @@
   z-index: 99;
 }
 
+#cart-item-counter {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-size: 0.6em;
+  margin-left:-3em;
+  margin-top: -3em;
+}
+
 .navbar .logo {
   width: 156px;
   height: 38px;

@@ -152,3 +152,13 @@ function product_description(el) {
   localStorage.setItem("product_detail", data)
   window.location.href = 'product_description.html'
 }
+// cart item
+setInterval(mapItems,100);
+    function mapItems(){
+        var cartList=JSON.parse(localStorage.getItem("product_data"));
+         var count=0;
+        cartList.map(function(element){
+            count++
+        });
+         document.querySelector("#cart-item-counter").textContent=count;
+    }
