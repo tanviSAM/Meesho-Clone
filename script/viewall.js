@@ -1,9 +1,9 @@
 
 // let url = `http://100.27.23.215/products` ; // this url will be of backend Server
-let url_arr = [];
-url_arr.push(`https://www.masrur.live/products`);
-url_arr.push(`https://www.masrur.live/womens`);
-url_arr.push(`https://www.masrur.live/jwelleries`);
+let vewall_arr = [];
+vewall_arr.push(`https://www.masrur.live/products`);
+vewall_arr.push(`https://www.masrur.live/womens`);
+vewall_arr.push(`https://www.masrur.live/jwelleries`);
 // let vals=[];
 var prdgp = [];
 async function fetchAPI(url){
@@ -23,7 +23,7 @@ async function fetchAPI(url){
 
 
 for(let i=0; i < 3; i++){
-   fetchAPI(url_arr[i]); 
+   fetchAPI(vewall_arr[i]); 
 }
 // console.log("******************************************");
 // console.log(alldata);
