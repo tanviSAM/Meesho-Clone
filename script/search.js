@@ -1,9 +1,9 @@
 // ------------------------------------------------------------------------------------------------------
 
 let url_arr = [];
-url_arr.push(`http://100.27.23.215/products`);
-url_arr.push(`http://100.27.23.215/womens`);
-url_arr.push(`http://100.27.23.215/jwelleries`);
+url_arr.push(`https://www.masrur.live/products`);
+url_arr.push(`https://www.masrur.live/womens`);
+url_arr.push(`https://www.masrur.live/jwelleries`);
 let vals = [];
 let filtered = [];
 
