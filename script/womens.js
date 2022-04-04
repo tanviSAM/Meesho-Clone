@@ -291,6 +291,8 @@
 // ];
 
 let url = `http://100.27.23.215/womens` ; // this url will be of backend Server
+let url = `https://www.masrur.live/womens` ;
+
 async function fetchAPI(){
     try {
         let res = await fetch(url);
