@@ -355,7 +355,8 @@
 // ];
 
 
-let url = `http://100.27.23.215/jwelleries` ; // this url will be of backend Server
+// let url = `http://100.27.23.215/jwelleries` ; // this url will be of backend Server
+let url = `https://www.masrur.live/jwelleries` ;
 async function fetchAPI(){
     try {
         let res = await fetch(url);
