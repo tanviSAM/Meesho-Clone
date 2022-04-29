@@ -38,7 +38,7 @@ All the data is stored in the localStorage of the User.
 
 <h2> Instructions to Run the Code </h2>
 <p>    
-Clone my repository https://github.com/Duwesh/Flatheads-Clone.git
+Clone my repository https://github.com/tanviSAM/Meesho-Clone
 Open that code in your VS code index.html
 Open the index.html on Live server
 Then you can Navigate through other pages from Landing page like signin.html, cart.html, product.html etc.
