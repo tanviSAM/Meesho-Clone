@@ -15,9 +15,18 @@ https://meesho-clone-masaiweb15.netlify.app/
 
 
 <h2> Snapshots </h2>
-<img src="" alt="" />
+
+![pic-1](https://user-images.githubusercontent.com/91047001/166081534-2617f82c-b68c-438f-901a-44462f0a276a.JPG)
+
+
+![pic-2](https://user-images.githubusercontent.com/91047001/166081888-ebeb1e3f-7718-4140-9f60-398f44de8559.JPG)
+
+![pic-3](https://user-images.githubusercontent.com/91047001/166081897-13eaa3a4-8a93-4795-8ae0-a92d834e6f7f.JPG)
+
+
 
 <h2> Technology We Used 💻 </h2>
+
 <ul>
   <li> HTML5 </li>
   <li> CSS3 </li>
