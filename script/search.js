@@ -1,7 +1,7 @@
 // ------------------------------------------------------------------------------------------------------
 
 let url_arr = [];
-url_arr.push(`http://shivam-yadav-json-server-data.herokuapp.com/WomensData`);
+url_arr.push(`http://shivam-yadav-json-server-data.herokuapp.com/MensData`);
 url_arr.push(`http://shivam-yadav-json-server-data.herokuapp.com/WomensData`);
 url_arr.push(`http://shivam-yadav-json-server-data.herokuapp.com/JewelleryData`);
 let vals = [];

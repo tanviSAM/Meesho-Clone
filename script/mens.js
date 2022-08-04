@@ -75,7 +75,7 @@ dataarr.push(mensdata20)
 
 
 // let url = `http://100.27.23.215/products` ; // this url will be of backend Server  https://www.masrur.live
-let url = `http://shivam-yadav-json-server-data.herokuapp.com/WomensData`;
+let url = `http://shivam-yadav-json-server-data.herokuapp.com/MensData`;
 async function fetchAPI() {
     try {
         let res = await fetch(url);

@@ -1,5 +1,5 @@
 let vewall_arr = [];
-vewall_arr.push(`http://shivam-yadav-json-server-data.herokuapp.com/WomensData`);
+vewall_arr.push(`http://shivam-yadav-json-server-data.herokuapp.com/MensData`);
 vewall_arr.push(`http://shivam-yadav-json-server-data.herokuapp.com/WomensData`);
 vewall_arr.push(`http://shivam-yadav-json-server-data.herokuapp.com/JewelleryData`);
 var prdgp = [];
