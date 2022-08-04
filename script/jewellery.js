@@ -356,7 +356,7 @@
 
 
 // let url = `http://100.27.23.215/jwelleries` ; // this url will be of backend Server
-let url = `https://www.masrur.live/jwelleries` ;
+let url = `http://shivam-yadav-json-server-data.herokuapp.com/JewelleryData` ;
 async function fetchAPI(){
     try {
         let res = await fetch(url);

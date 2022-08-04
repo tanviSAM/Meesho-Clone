@@ -291,7 +291,7 @@
 // ];
 
 // let url = `http://100.27.23.215/womens` ; // this url will be of backend Server
-let url = `https://www.masrur.live/womens` ;
+let url = `http://shivam-yadav-json-server-data.herokuapp.com/WomensData` ;
 
 async function fetchAPI(){
     try {

@@ -1,9 +1,9 @@
 
 // let url = `http://100.27.23.215/products` ; // this url will be of backend Server
 let vewall_arr = [];
-vewall_arr.push(`https://www.masrur.live/products`);
-vewall_arr.push(`https://www.masrur.live/womens`);
-vewall_arr.push(`https://www.masrur.live/jwelleries`);
+vewall_arr.push(`http://shivam-yadav-json-server-data.herokuapp.com/WomensData`);
+vewall_arr.push(`http://shivam-yadav-json-server-data.herokuapp.com/WomensData`);
+vewall_arr.push(`http://shivam-yadav-json-server-data.herokuapp.com/JewelleryData`);
 // let vals=[];
 var prdgp = [];
 async function fetchAPI(url){
