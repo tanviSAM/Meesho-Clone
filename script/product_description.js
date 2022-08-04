@@ -1,7 +1,6 @@
 data = localStorage.getItem("product_detail")
 data = JSON.parse(data);
 
-
 function appenddata(data) {
     console.log("yes")
     var data_image = document.createElement("img")
