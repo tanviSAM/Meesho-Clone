@@ -302,7 +302,8 @@ hr {
   width: 73%;
   margin: auto;
   border: 1px solid black;
-  background-image: url(https://meesho.com/_next/static/images/download_banner-19ca4d63d9c1dc44bc8cbfae62b60bd7.jpg);
+  background-size: cover;
+  background-image: url(https://images.meesho.com/images/pow/download_banner_desktop.webp);
   height: 560px;
 }
 .split {
@@ -334,18 +335,24 @@ hr {
 }
 #android {
   border: 10px solid black;
+  width: 190px;
+  height: 65px;
   border-radius: 5%;
+  margin-left: -10px;
 }
 
 #apple {
-  border: 11px solid black;
+  width: 195px;
+  height: 65px;
+  border: 10px solid black;
   border-radius: 5%;
   margin-right: 10px;
 }
 .final {
   width: 73%;
   border: 1px solid black;
-  background-image: url(https://meesho.com/_next/static/images/supply_banner_desk-d53b6ffa3ee3c43feedcfdd0f3d9bd8d.jpg);
+  background-size: cover;
+  background-image: url(https://images.meesho.com/images/pow/supply_banner_desktop.webp);
   height: 290px;
   margin: 5% auto;
 }
