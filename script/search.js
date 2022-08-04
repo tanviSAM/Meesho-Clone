@@ -1,9 +1,9 @@
 // ------------------------------------------------------------------------------------------------------
 
 let url_arr = [];
-url_arr.push(`https://www.masrur.live/products`);
-url_arr.push(`https://www.masrur.live/womens`);
-url_arr.push(`https://www.masrur.live/jwelleries`);
+url_arr.push(`http://shivam-yadav-json-server-data.herokuapp.com/WomensData`);
+url_arr.push(`http://shivam-yadav-json-server-data.herokuapp.com/WomensData`);
+url_arr.push(`http://shivam-yadav-json-server-data.herokuapp.com/JewelleryData`);
 let vals = [];
 let filtered = [];
 

@@ -97,9 +97,8 @@ function appenddata(data) {
 }
 
 appenddata(data);
- var data_arr = JSON.parse(localStorage.getItem("product_data")) || [];
-function addtocart(data)
-{   
+var data_arr = JSON.parse(localStorage.getItem("product_data")) || [];
+function addtocart(data) {
     data_arr.push(data);
     product_data = JSON.stringify(data_arr);
     localStorage.setItem("product_data", product_data);

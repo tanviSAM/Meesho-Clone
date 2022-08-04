@@ -75,15 +75,15 @@
 
 
 // let url = `http://100.27.23.215/products` ; // this url will be of backend Server  https://www.masrur.live
-let url = `http://shivam-yadav-json-server-data.herokuapp.com/WomensData` ;
-async function fetchAPI(){
+let url = `http://shivam-yadav-json-server-data.herokuapp.com/WomensData`;
+async function fetchAPI() {
     try {
         let res = await fetch(url);
         let data = await res.json();
         appenddata(data);
         console.log(data);
     } catch (error) {
-        console.log("error : ",error);
+        console.log("error : ", error);
     }
 }
 

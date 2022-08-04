@@ -21,13 +21,9 @@ async function fetchAPI(url){
     }
 }
 
-
 for(let i=0; i < 3; i++){
    fetchAPI(vewall_arr[i]); 
 }
-// console.log("******************************************");
-// console.log(alldata);
-
 
 function appenddata(data) {
     data.forEach((el) => {
