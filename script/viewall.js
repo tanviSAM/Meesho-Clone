@@ -1,10 +1,7 @@
-
-// let url = `http://100.27.23.215/products` ; // this url will be of backend Server
 let vewall_arr = [];
 vewall_arr.push(`http://shivam-yadav-json-server-data.herokuapp.com/WomensData`);
 vewall_arr.push(`http://shivam-yadav-json-server-data.herokuapp.com/WomensData`);
 vewall_arr.push(`http://shivam-yadav-json-server-data.herokuapp.com/JewelleryData`);
-// let vals=[];
 var prdgp = [];
 async function fetchAPI(url){
     try {
@@ -119,17 +116,6 @@ function appenddata(data) {
 
 
 function handleprice() {
-    // console.log(dataarr)
-    // let vals=[];
-    // dataarr.map((e) => {
-    //     for(let item of e){
-    //         vals.push(item)}
-    // });   
-
-    // // console.log(vals);
-    // dataarr = vals;
-    // console.log(dataarr);
-
     var shortv = document.querySelector("#select_tag").value
 
     if (shortv == "high") {
@@ -148,7 +134,6 @@ function handleprice() {
         })
     }
     document.querySelector("#container").innerHTML = "";
-    // appenddata(dataarr);
     appenddata(vals);
 }
 
