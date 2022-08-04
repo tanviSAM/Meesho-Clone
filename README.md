@@ -11,7 +11,7 @@ https://drive.google.com/file/d/1-0P7yiPrVxaUn1ze5VNv9s9ROUZ8ctBA/view?usp=shari
 
 
 <h2> Deployed Link </h2>
-https://meesho-clone-masaiweb15.netlify.app/
+https://meesho-replica.netlify.app/index.html
 
 
 <h2> Snapshots </h2>
