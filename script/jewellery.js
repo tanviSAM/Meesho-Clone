@@ -13,8 +13,6 @@ async function fetchAPI() {
 // lets call below fetchAPI.
 fetchAPI();
 
-// appenddata(dataarr)
-
 function appenddata(data) {
     data.forEach((el) => {
 
