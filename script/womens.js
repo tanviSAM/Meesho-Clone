@@ -1,4 +1,4 @@
-let url = `http://shivam-yadav-json-server-data.herokuapp.com/WomensData` ;
+let url = `https://shivam-yadav-json-server-data.herokuapp.com/WomensData` ;
 
 async function fetchAPI(){
     try {
