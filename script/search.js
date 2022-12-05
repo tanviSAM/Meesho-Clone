@@ -1,9 +1,9 @@
 // ------------------------------------------------------------------------------------------------------
 
 let url_arr = [];
-url_arr.push(`https://shivam-yadav-json-server-data.herokuapp.com/MensData`);
-url_arr.push(`https://shivam-yadav-json-server-data.herokuapp.com/WomensData`);
-url_arr.push(`https://shivam-yadav-json-server-data.herokuapp.com/JewelleryData`);
+url_arr.push(`https://super-paint-flamingo.glitch.me/MensData`);
+url_arr.push(`https://super-paint-flamingo.glitch.me/WomensData`);
+url_arr.push(`https://super-paint-flamingo.glitch.me/JewelleryData`);
 let vals = [];
 let filtered = [];
 

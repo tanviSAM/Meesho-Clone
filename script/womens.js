@@ -1,4 +1,4 @@
-let url = `https://shivam-yadav-json-server-data.herokuapp.com/WomensData` ;
+let url = `https://super-paint-flamingo.glitch.me/WomensData` ;
 
 async function fetchAPI(){
     try {

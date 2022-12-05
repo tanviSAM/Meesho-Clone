@@ -1,7 +1,7 @@
 let vewall_arr = [];
-vewall_arr.push(`https://shivam-yadav-json-server-data.herokuapp.com/MensData`);
-vewall_arr.push(`https://shivam-yadav-json-server-data.herokuapp.com/WomensData`);
-vewall_arr.push(`https://shivam-yadav-json-server-data.herokuapp.com/JewelleryData`);
+vewall_arr.push(`https://super-paint-flamingo.glitch.me/MensData`);
+vewall_arr.push(`https://super-paint-flamingo.glitch.me/WomensData`);
+vewall_arr.push(`https://super-paint-flamingo.glitch.me/JewelleryData`);
 var prdgp = [];
 async function fetchAPI(url){
     try {
